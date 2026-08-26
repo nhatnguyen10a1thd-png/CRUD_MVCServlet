@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ServletCRUDMVC:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ServletCRUDMVC_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ServletCRUDMVC" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.2" />
+          <element id="library" level="project" name="Maven: jakarta.el:jakarta.el-api:5.0.0" />
+          <element id="library" level="project" name="Maven: org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.1" />
+          <element id="library" level="project" name="Maven: com.microsoft.sqlserver:mssql-jdbc:12.8.1.jre11" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="ServletCRUDMVC/web/Web" />
+    </root>
+  </artifact>
+</component>
