@@ -86,8 +86,10 @@ body {
     transition: .2s;
 }
 
-.menu-item span {
+.menu-item i {
     margin-right: 9px;
+    width: 20px;
+    text-align: center;
 }
 
 .menu-item:hover,

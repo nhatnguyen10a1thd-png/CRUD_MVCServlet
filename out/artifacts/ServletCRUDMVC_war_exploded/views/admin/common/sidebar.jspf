@@ -1,3 +1,5 @@
+<%@ page pageEncoding="UTF-8" %>
+
 <c:url value="/admin/category/list"
        var="categoryListUrl"/>
 
@@ -26,32 +28,32 @@
 
     <a href="${categoryListUrl}"
        class="menu-item dashboard-item">
-      <span>◉</span>
+      <i class="fas fa-tachometer-alt"></i>
       Dashboard
     </a>
 
     <div class="menu-item category-title active">
-      <span>▱</span>
+      <i class="fas fa-th-list"></i>
       Quản lý Danh mục
     </div>
 
     <a href="${categoryAddUrl}"
        class="submenu-item">
-      + Thêm danh mục mới
+      <i class="fas fa-plus"></i> Thêm danh mục mới
     </a>
 
     <a href="${categoryListUrl}"
        class="submenu-item">
-      Danh sách danh mục
+      <i class="fas fa-list"></i> Danh sách danh mục
     </a>
 
     <div class="menu-item">
-      <span>▣</span>
+      <i class="fas fa-box"></i>
       Quản lý sản phẩm
     </div>
 
     <div class="menu-item">
-      <span>▦</span>
+      <i class="fas fa-users"></i>
       Quản lý tài khoản
     </div>
 
